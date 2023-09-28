@@ -26,6 +26,18 @@ In this project, we utilize a DHT11 Temperature and Humidity sensor for real-tim
 
 After connecting the Raspberry Pi with a DHT11 sensor as described above, you can run the Raspi.py file on Raspberry Pi . This will automatically upload the sensor readings to the server. To view the sensor readings on your PC, run AI.py. It will display the values of temperature and humidity on your PC, with anomalies eliminated thanks to the applied Kalman filter.
 
+
+![image](https://github.com/Kuldeep938/se20uari083_085_033/assets/84227754/286237eb-fa20-4335-a87e-579108b80f81)
+
+
+![image](https://github.com/Kuldeep938/se20uari083_085_033/assets/84227754/3dbfa53e-7eba-4ce9-a38b-5d297c242ab2)
+
+
+
+
+
+
+
 ## Use Case
 
 ### Smart Home Climate Control System
