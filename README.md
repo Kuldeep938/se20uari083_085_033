@@ -14,5 +14,32 @@ In this project, we utilize a DHT11 Temperature and Humidity sensor for real-tim
 - **Temperature Error:** ±2%
 - **Power Supply:** 3.3v - 5v
 
-This experiment focuses on uploading sensor data from the DHT11 sensor to a Firebase Realtime Database using a Raspberry Pi.
+/Assignment: This experiment focuses on uploading sensor data,namely temperature & humidi from the DHT11 sensor to a Firebase Realtime Database using a Raspberry Pi.
+
+
+
+
+## AI in project
+
+Applying the Kalman filter to the sensor values to eliminate the anamolies in sensor readings.
+
+#Working principle of the kalman filter:
+The Kalman filter deals effectively with the uncertainty due to noisy sensor data and, to some extent, with random external factors. The Kalman filter produces an estimate of the state of the system as an average of the system's predicted state and of the new measurement using a weighted average. 
+
+    {\displaystyle \mathbf {x} _{k}=\mathbf {F} _{k}\mathbf {x} _{k-1}+\mathbf {B} _{k}\mathbf {u} _{k}+\mathbf {w} _{k}}
+
+    Fk, the state-transition model;
+- Hk, the observation model;
+- Qk, the covariance of the process noise;
+- Rk, the covariance of the observation noise;
+and sometimes Bk, the control-input model as described below; if Bk is included, then there is also
+- uk, the control vector, representing the controlling input into control-input model.
+
+
+
+
+
+
+
+
 
