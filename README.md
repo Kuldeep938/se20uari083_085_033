@@ -37,7 +37,7 @@ One practical use case of the DHT11 sensor is in a smart home climate control sy
 
 Applying the Kalman filter to the sensor values to eliminate the anamolies in sensor readings.
 
-#Working principle of the kalman filter:
+### Working principle of the kalman filter:
 
 The Kalman filter deals effectively with the uncertainty due to noisy sensor data and, to some extent, with random external factors. The Kalman filter produces an estimate of the state of the system as an average of the system's predicted state and of the new measurement using a weighted average. 
 
