@@ -20,12 +20,17 @@ In this project, we utilize a DHT11 Temperature and Humidity sensor for real-tim
 
   ![image](https://github.com/Kuldeep938/se20uari083_085_033/assets/84227754/35593d98-bc9e-4ad7-bf67-29bc4a6b95a9)
 
-- ** PIN 1  3V3 with VCC
-- ** PIN 6 GND with GND
-- ** PIN 16 GPIO 23 with Data
+-  PIN 1  3V3 with VCC
+- PIN 6 GND with GND
+- PIN 16 GPIO 23 with Data
 
+After connecting the Raspberry Pi with a DHT11 sensor as described above, you can run the Raspi.py file on Raspberry Pi . This will automatically upload the sensor readings to the server. To view the sensor readings on your PC, run AI.py. It will display the values of temperature and humidity on your PC, with anomalies eliminated thanks to the applied Kalman filter.
 
+## Use Case
 
+### Smart Home Climate Control System
+
+One practical use case of the DHT11 sensor is in a smart home climate control system. You can connect the DHT11 sensor to a microcontroller like Arduino or Raspberry Pi. Then, you can program the microcontroller to read temperature and humidity data from the sensor. The system can use this data to automatically control heating, ventilation, and air conditioning (HVAC) systems within the home. For instance, if the temperature becomes too high, the system can activate the air conditioner, and if humidity levels rise significantly, it can turn on a dehumidifier. This way, you can create a more comfortable and energy-efficient living environment.
 
 
 ## AI in project
